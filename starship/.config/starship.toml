@@ -25,7 +25,7 @@ truncation_length = 4
 truncate_to_repo = false
 
 [character]
-success_symbol = "[❯](purple)"
+success_symbol = "[❯](blue)"
 error_symbol = "[❯](red)"
 vicmd_symbol = "[❮](green)"
 
@@ -65,9 +65,3 @@ symbol = " "
 disabled = false
 style = "bold white"
 format = "[$time]($style)"
-
-[custom.stunnel]
-when = "ps aux | grep stunnel | grep -v grep"
-command = "ps -o etime= -p $(ps aux | grep stunnel | grep -v grep | awk '{print $2}')"
-style = "red"
-format = "[TUNNEL OPEN for $output]($style)"

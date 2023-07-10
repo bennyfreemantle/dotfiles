@@ -1,6 +1,3 @@
-# AutoJump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
 # Example customization: Set the prompt
 PS1="%n@%m %~ %# "
 
