@@ -2,7 +2,14 @@
 
 Uses [stow](https://www.gnu.org/software/stow/) to manage dotfiles
 
-## Install Fish
+## Files
+- **Alacritty** - Terminal emulator with catppuccin theme
+- **Fish** - Terminal shell
+- **Zsh** - Alternative shell
+- **Starship** - Easily configurable prompt
+
+
+## Setups
 
 ```bash
 brew install fish ​
